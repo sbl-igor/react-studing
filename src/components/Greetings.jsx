@@ -4,7 +4,7 @@ function Greetings({ userName }) {
 
     const [greeting, changeGreeting] = useState('Пока');
 
-    function changeGreetingUseState() {
+    function changeGreetingUseState() { // Смена приветствия по клику кнопки
         if (greeting === 'Привет') {
             changeGreeting('Пока')
         } else {
